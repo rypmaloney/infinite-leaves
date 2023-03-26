@@ -1,16 +1,25 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+require('dotenv').config();
 
-var http = require('http');
-const socketIO = require('./socket');
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+const http = require('http');
+const socketIO = require('./routes/socket');
 
-var app = express();
+const indexRouter = require('./routes/index');
+const usersRouter = require('./routes/users');
+
+const app = express();
+
+// Set up mongoose connection
+var mongoose = require('mongoose');
+var mongoDB = `${process.env.DB_URI}`;
+mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 // Create the http server
 const server = require('http').createServer(app);
@@ -21,12 +30,14 @@ socketIO(server);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+// Middleware
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Routers
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
