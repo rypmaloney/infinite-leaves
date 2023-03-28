@@ -3,10 +3,9 @@ package-lock.json
 *.log
 *.gz
 .env
-
-# Coveralls
+.DS_Store
 .nyc_output
 coverage
+images/grids
+images/samples
 
-# Benchmarking
-benchmarks/graphs

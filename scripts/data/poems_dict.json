@@ -1,0 +1,1907 @@
+{
+    "002": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "One\u2019s-Self I Sing",
+        "order": 2
+    },
+    "003": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "As I Ponder\u2019d in Silence",
+        "order": 3
+    },
+    "004": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "In Cabin\u2019d Ships at Sea",
+        "order": 4
+    },
+    "005": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "To Foreign Lands",
+        "order": 5
+    },
+    "006": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "To a Historian",
+        "order": 6
+    },
+    "007": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "To Thee Old Cause",
+        "order": 7
+    },
+    "008": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "Eidolons",
+        "order": 8
+    },
+    "009": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "For Him I Sing",
+        "order": 9
+    },
+    "010": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "When I Read the Book",
+        "order": 10
+    },
+    "011": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "Beginning My Studies",
+        "order": 11
+    },
+    "012": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "Beginners",
+        "order": 12
+    },
+    "013": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "To the States",
+        "order": 13
+    },
+    "014": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "On Journeys Through the States",
+        "order": 14
+    },
+    "015": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "To a Certain Cantatrice",
+        "order": 15
+    },
+    "016": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "Me Imperturbe",
+        "order": 16
+    },
+    "017": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "Savantism",
+        "order": 17
+    },
+    "018": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "The Ship Starting",
+        "order": 18
+    },
+    "019": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "I Hear America Singing",
+        "order": 19
+    },
+    "020": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "What Place Is Besieged?",
+        "order": 20
+    },
+    "021": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "Still Though the One I Sing",
+        "order": 21
+    },
+    "022": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "Shut Not Your Doors",
+        "order": 22
+    },
+    "023": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "Poets to Come",
+        "order": 23
+    },
+    "024": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "To You",
+        "order": 24
+    },
+    "025": {
+        "book": "BOOK I.  INSCRIPTIONS",
+        "title": "Thou Reader",
+        "order": 25
+    },
+    "026": {
+        "book": "BOOK II",
+        "title": "Starting from Paumanok",
+        "order": 26
+    },
+    "027": {
+        "book": "BOOK III",
+        "title": "Song of Myself",
+        "order": 27
+    },
+    "028": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "To the Garden the World",
+        "order": 28
+    },
+    "029": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "From Pent-Up Aching Rivers",
+        "order": 29
+    },
+    "030": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "I Sing the Body Electric",
+        "order": 30
+    },
+    "031": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "A Woman Waits for Me",
+        "order": 31
+    },
+    "032": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "Spontaneous Me",
+        "order": 32
+    },
+    "033": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "One Hour to Madness and Joy",
+        "order": 33
+    },
+    "034": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "Out of the Rolling Ocean the Crowd",
+        "order": 34
+    },
+    "035": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "Ages and Ages Returning at Intervals",
+        "order": 35
+    },
+    "036": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "We Two, How Long We Were Fool\u2019d",
+        "order": 36
+    },
+    "037": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "O Hymen! O Hymenee!",
+        "order": 37
+    },
+    "038": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "I Am He That Aches with Love",
+        "order": 38
+    },
+    "039": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "Native Moments",
+        "order": 39
+    },
+    "040": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "Once I Pass\u2019d Through a Populous City",
+        "order": 40
+    },
+    "041": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "I Heard You Solemn-Sweet Pipes of the Organ",
+        "order": 41
+    },
+    "042": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "Facing West from California\u2019s Shores",
+        "order": 42
+    },
+    "043": {
+        "book": "BOOK IV.  CHILDREN OF ADAM",
+        "title": "As Adam Early in the Morning",
+        "order": 43
+    },
+    "044": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "In Paths Untrodden",
+        "order": 44
+    },
+    "045": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Scented Herbage of My Breast",
+        "order": 45
+    },
+    "046": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Whoever You Are Holding Me Now in Hand",
+        "order": 46
+    },
+    "047": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "For You, O Democracy",
+        "order": 47
+    },
+    "048": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "These I Singing in Spring",
+        "order": 48
+    },
+    "049": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Not Heaving from My Ribb\u2019d Breast Only",
+        "order": 49
+    },
+    "050": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Of the Terrible Doubt of Appearances",
+        "order": 50
+    },
+    "051": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "The Base of All Metaphysics",
+        "order": 51
+    },
+    "052": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Recorders Ages Hence",
+        "order": 52
+    },
+    "053": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "When I Heard at the Close of the Day",
+        "order": 53
+    },
+    "054": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Are You the New Person Drawn Toward Me?",
+        "order": 54
+    },
+    "055": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Roots and Leaves Themselves Alone",
+        "order": 55
+    },
+    "056": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Not Heat Flames Up and Consumes",
+        "order": 56
+    },
+    "057": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Trickle Drops",
+        "order": 57
+    },
+    "058": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "City of Orgies",
+        "order": 58
+    },
+    "059": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Behold This Swarthy Face",
+        "order": 59
+    },
+    "060": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "I Saw in Louisiana a Live-Oak Growing",
+        "order": 60
+    },
+    "061": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "To a Stranger",
+        "order": 61
+    },
+    "062": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "This Moment Yearning and Thoughtful",
+        "order": 62
+    },
+    "063": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "I Hear It Was Charged Against Me",
+        "order": 63
+    },
+    "064": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "The Prairie-Grass Dividing",
+        "order": 64
+    },
+    "065": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "When I Peruse the Conquer\u2019d Fame",
+        "order": 65
+    },
+    "066": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "We Two Boys Together Clinging",
+        "order": 66
+    },
+    "067": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "A Promise to California",
+        "order": 67
+    },
+    "068": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Here the Frailest Leaves of Me",
+        "order": 68
+    },
+    "069": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "No Labor-Saving Machine",
+        "order": 69
+    },
+    "070": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "A Glimpse",
+        "order": 70
+    },
+    "071": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "A Leaf for Hand in Hand",
+        "order": 71
+    },
+    "072": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Earth, My Likeness",
+        "order": 72
+    },
+    "073": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "I Dream\u2019d in a Dream",
+        "order": 73
+    },
+    "074": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "What Think You I Take My Pen in Hand?",
+        "order": 74
+    },
+    "075": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "To the East and to the West",
+        "order": 75
+    },
+    "076": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Sometimes with One I Love",
+        "order": 76
+    },
+    "077": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "To a Western Boy",
+        "order": 77
+    },
+    "078": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Fast Anchor\u2019d Eternal O Love!",
+        "order": 78
+    },
+    "079": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Among the Multitude",
+        "order": 79
+    },
+    "080": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "O You Whom I Often and Silently Come",
+        "order": 80
+    },
+    "081": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "That Shadow My Likeness",
+        "order": 81
+    },
+    "082": {
+        "book": "BOOK V.  CALAMUS",
+        "title": "Full of Life Now",
+        "order": 82
+    },
+    "083": {
+        "book": "BOOK VI",
+        "title": "Salut au Monde!",
+        "order": 83
+    },
+    "084": {
+        "book": "BOOK VII",
+        "title": "Song of the Open Road",
+        "order": 84
+    },
+    "085": {
+        "book": "BOOK VIII",
+        "title": "Crossing Brooklyn Ferry",
+        "order": 85
+    },
+    "086": {
+        "book": "BOOK IX",
+        "title": "Song of the Answerer",
+        "order": 86
+    },
+    "087": {
+        "book": "BOOK X",
+        "title": "Our Old Feuillage",
+        "order": 87
+    },
+    "088": {
+        "book": "BOOK XI",
+        "title": "A Song of Joys",
+        "order": 88
+    },
+    "089": {
+        "book": "BOOK XII",
+        "title": "Song of the Broad-Axe",
+        "order": 89
+    },
+    "090": {
+        "book": "BOOK XIII",
+        "title": "Song of the Exposition",
+        "order": 90
+    },
+    "091": {
+        "book": "BOOK XIV",
+        "title": "Song of the Redwood-Tree",
+        "order": 91
+    },
+    "092": {
+        "book": "BOOK XV",
+        "title": "A Song for Occupations",
+        "order": 92
+    },
+    "093": {
+        "book": "BOOK XVI",
+        "title": "A Song of the Rolling Earth",
+        "order": 93
+    },
+    "094": {
+        "book": "BOOK XVI",
+        "title": "Youth, Day, Old Age and Night",
+        "order": 94
+    },
+    "095": {
+        "book": "BOOK XVII.  BIRDS OF PASSAGE",
+        "title": "Song of the Universal",
+        "order": 95
+    },
+    "096": {
+        "book": "BOOK XVII.  BIRDS OF PASSAGE",
+        "title": "Pioneers! O Pioneers!",
+        "order": 96
+    },
+    "097": {
+        "book": "BOOK XVII.  BIRDS OF PASSAGE",
+        "title": "To You",
+        "order": 97
+    },
+    "098": {
+        "book": "BOOK XVII.  BIRDS OF PASSAGE",
+        "title": "France [the 18th Year of these States",
+        "order": 98
+    },
+    "099": {
+        "book": "BOOK XVII.  BIRDS OF PASSAGE",
+        "title": "Myself and Mine",
+        "order": 99
+    },
+    "100": {
+        "book": "BOOK XVII.  BIRDS OF PASSAGE",
+        "title": "Year of Meteors [1859-60",
+        "order": 100
+    },
+    "101": {
+        "book": "BOOK XVII.  BIRDS OF PASSAGE",
+        "title": "With Antecedents",
+        "order": 101
+    },
+    "102": {
+        "book": "BOOK XVIII",
+        "title": "A Broadway Pageant",
+        "order": 102
+    },
+    "103": {
+        "book": "BOOK XIX.  SEA-DRIFT",
+        "title": "Out of the Cradle Endlessly Rocking",
+        "order": 103
+    },
+    "104": {
+        "book": "BOOK XIX.  SEA-DRIFT",
+        "title": "As I Ebb\u2019d with the Ocean of Life",
+        "order": 104
+    },
+    "105": {
+        "book": "BOOK XIX.  SEA-DRIFT",
+        "title": "Tears",
+        "order": 105
+    },
+    "106": {
+        "book": "BOOK XIX.  SEA-DRIFT",
+        "title": "To the Man-of-War-Bird",
+        "order": 106
+    },
+    "107": {
+        "book": "BOOK XIX.  SEA-DRIFT",
+        "title": "Aboard at a Ship\u2019s Helm",
+        "order": 107
+    },
+    "108": {
+        "book": "BOOK XIX.  SEA-DRIFT",
+        "title": "On the Beach at Night",
+        "order": 108
+    },
+    "109": {
+        "book": "BOOK XIX.  SEA-DRIFT",
+        "title": "The World below the Brine",
+        "order": 109
+    },
+    "110": {
+        "book": "BOOK XIX.  SEA-DRIFT",
+        "title": "On the Beach at Night Alone",
+        "order": 110
+    },
+    "111": {
+        "book": "BOOK XIX.  SEA-DRIFT",
+        "title": "Song for All Seas, All Ships",
+        "order": 111
+    },
+    "112": {
+        "book": "BOOK XIX.  SEA-DRIFT",
+        "title": "Patroling Barnegat",
+        "order": 112
+    },
+    "113": {
+        "book": "BOOK XIX.  SEA-DRIFT",
+        "title": "After the Sea-Ship",
+        "order": 113
+    },
+    "114": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "A Boston Ballad [1854]",
+        "order": 114
+    },
+    "115": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Europe [The 72d and 73d Years of These States]",
+        "order": 115
+    },
+    "116": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "A Hand-Mirror",
+        "order": 116
+    },
+    "117": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Gods",
+        "order": 117
+    },
+    "118": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Germs",
+        "order": 118
+    },
+    "119": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Thoughts",
+        "order": 119
+    },
+    "120": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "When I Heard the Learn\u2019d Astronomer",
+        "order": 120
+    },
+    "121": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Perfections",
+        "order": 121
+    },
+    "122": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "O Me! O Life!",
+        "order": 122
+    },
+    "123": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "To a President",
+        "order": 123
+    },
+    "124": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "I Sit and Look Out",
+        "order": 124
+    },
+    "125": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "To Rich Givers",
+        "order": 125
+    },
+    "126": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "The Dalliance of the Eagles",
+        "order": 126
+    },
+    "127": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Roaming in Thought [After reading Hegel]",
+        "order": 127
+    },
+    "128": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "A Farm Picture",
+        "order": 128
+    },
+    "129": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "A Child\u2019s Amaze",
+        "order": 129
+    },
+    "130": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "The Runner",
+        "order": 130
+    },
+    "131": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Beautiful Women",
+        "order": 131
+    },
+    "132": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Mother and Babe",
+        "order": 132
+    },
+    "133": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Thought",
+        "order": 133
+    },
+    "134": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Visor\u2019d",
+        "order": 134
+    },
+    "135": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Thought",
+        "order": 135
+    },
+    "136": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Gliding O\u2019er all",
+        "order": 136
+    },
+    "137": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Hast Never Come to Thee an Hour",
+        "order": 137
+    },
+    "138": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Thought",
+        "order": 138
+    },
+    "139": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "To Old Age",
+        "order": 139
+    },
+    "140": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Locations and Times",
+        "order": 140
+    },
+    "141": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "Offerings",
+        "order": 141
+    },
+    "142": {
+        "book": "BOOK XX.  BY THE ROADSIDE",
+        "title": "To The States [To Identify the 16th, 17th, or 18th Presidentiad]",
+        "order": 142
+    },
+    "143": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "First O Songs for a Prelude",
+        "order": 143
+    },
+    "144": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Eighteen Sixty-One",
+        "order": 144
+    },
+    "145": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Beat! Beat! Drums!",
+        "order": 145
+    },
+    "146": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "From Paumanok Starting I Fly Like a Bird",
+        "order": 146
+    },
+    "147": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Song of the Banner at Daybreak",
+        "order": 147
+    },
+    "148": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Rise O Days from Your Fathomless Deeps",
+        "order": 148
+    },
+    "149": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Virginia--The West",
+        "order": 149
+    },
+    "150": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "City of Ships",
+        "order": 150
+    },
+    "151": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "The Centenarian\u2019s Story",
+        "order": 151
+    },
+    "152": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Cavalry Crossing a Ford",
+        "order": 152
+    },
+    "153": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Bivouac on a Mountain Side",
+        "order": 153
+    },
+    "154": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "An Army Corps on the March",
+        "order": 154
+    },
+    "155": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "By the Bivouac\u2019s Fitful Flame",
+        "order": 155
+    },
+    "156": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Come Up from the Fields Father",
+        "order": 156
+    },
+    "157": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Vigil Strange I Kept on the Field One Night",
+        "order": 157
+    },
+    "158": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "A March in the Ranks Hard-Prest, and the Road Unknown",
+        "order": 158
+    },
+    "159": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "A Sight in Camp in the Daybreak Gray and Dim",
+        "order": 159
+    },
+    "160": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "As Toilsome I Wander\u2019d Virginia\u2019s Woods",
+        "order": 160
+    },
+    "161": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Not the Pilot",
+        "order": 161
+    },
+    "162": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Year That Trembled and Reel\u2019d Beneath Me",
+        "order": 162
+    },
+    "163": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "The Wound-Dresser",
+        "order": 163
+    },
+    "164": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Long, Too Long America",
+        "order": 164
+    },
+    "165": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Give Me the Splendid Silent Sun",
+        "order": 165
+    },
+    "166": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Dirge for Two Veterans",
+        "order": 166
+    },
+    "167": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Over the Carnage Rose Prophetic a Voice",
+        "order": 167
+    },
+    "168": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "I Saw Old General at Bay",
+        "order": 168
+    },
+    "169": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "The Artilleryman\u2019s Vision",
+        "order": 169
+    },
+    "170": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Ethiopia Saluting the Colors",
+        "order": 170
+    },
+    "171": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Not Youth Pertains to Me",
+        "order": 171
+    },
+    "172": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Race of Veterans",
+        "order": 172
+    },
+    "173": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "World Take Good Notice",
+        "order": 173
+    },
+    "174": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "O Tan-Faced Prairie-Boy",
+        "order": 174
+    },
+    "175": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Look Down Fair Moon",
+        "order": 175
+    },
+    "176": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Reconciliation",
+        "order": 176
+    },
+    "177": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "How Solemn As One by One [Washington City, 1865]",
+        "order": 177
+    },
+    "178": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "As I Lay with My Head in Your Lap Camerado",
+        "order": 178
+    },
+    "179": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Delicate Cluster",
+        "order": 179
+    },
+    "180": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "To a Certain Civilian",
+        "order": 180
+    },
+    "181": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Lo, Victress on the Peaks",
+        "order": 181
+    },
+    "182": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Spirit Whose Work Is Done [Washington City, 1865]",
+        "order": 182
+    },
+    "183": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Adieu to a Soldier",
+        "order": 183
+    },
+    "184": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "Turn O Libertad",
+        "order": 184
+    },
+    "185": {
+        "book": "BOOK XXI.  DRUM-TAPS",
+        "title": "To the Leaven\u2019d Soil They Trod",
+        "order": 185
+    },
+    "186": {
+        "book": "BOOK XXII.  MEMORIES OF PRESIDENT LINCOLN",
+        "title": "When Lilacs Last in the Dooryard Bloom\u2019d",
+        "order": 186
+    },
+    "187": {
+        "book": "BOOK XXII.  MEMORIES OF PRESIDENT LINCOLN",
+        "title": "O Captain! My Captain!",
+        "order": 187
+    },
+    "188": {
+        "book": "BOOK XXII.  MEMORIES OF PRESIDENT LINCOLN",
+        "title": "Hush\u2019d Be the Camps To-Day [May 4, 1865",
+        "order": 188
+    },
+    "189": {
+        "book": "BOOK XXII.  MEMORIES OF PRESIDENT LINCOLN",
+        "title": "This Dust Was Once the Man",
+        "order": 189
+    },
+    "190": {
+        "book": "BOOK XXIII",
+        "title": "By Blue Ontario\u2019s Shore",
+        "order": 190
+    },
+    "191": {
+        "book": "BOOK XXIII",
+        "title": "Reversals",
+        "order": 191
+    },
+    "192": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "As Consequent, Etc.",
+        "order": 192
+    },
+    "193": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "The Return of the Heroes",
+        "order": 193
+    },
+    "194": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "There Was a Child Went Forth",
+        "order": 194
+    },
+    "195": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Old Ireland",
+        "order": 195
+    },
+    "196": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "The City Dead-House",
+        "order": 196
+    },
+    "197": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "This Compost",
+        "order": 197
+    },
+    "198": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "To a Foil\u2019d European Revolutionaire",
+        "order": 198
+    },
+    "199": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Unnamed Land",
+        "order": 199
+    },
+    "200": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Song of Prudence",
+        "order": 200
+    },
+    "201": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "The Singer in the Prison",
+        "order": 201
+    },
+    "202": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Warble for Lilac-Time",
+        "order": 202
+    },
+    "203": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Outlines for a Tomb [G. P., Buried 1870]",
+        "order": 203
+    },
+    "204": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Out from Behind This Mask [To Confront a Portrait]",
+        "order": 204
+    },
+    "205": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Vocalism",
+        "order": 205
+    },
+    "206": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "To Him That Was Crucified",
+        "order": 206
+    },
+    "207": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "You Felons on Trial in Courts",
+        "order": 207
+    },
+    "208": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Laws for Creations",
+        "order": 208
+    },
+    "209": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "To a Common Prostitute",
+        "order": 209
+    },
+    "210": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "I Was Looking a Long While",
+        "order": 210
+    },
+    "211": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Thought",
+        "order": 211
+    },
+    "212": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Miracles",
+        "order": 212
+    },
+    "213": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Sparkles from the Wheel",
+        "order": 213
+    },
+    "214": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "To a Pupil",
+        "order": 214
+    },
+    "215": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Unfolded out of the Folds",
+        "order": 215
+    },
+    "216": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "What Am I After All",
+        "order": 216
+    },
+    "217": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Kosmos",
+        "order": 217
+    },
+    "218": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Others May Praise What They Like",
+        "order": 218
+    },
+    "219": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Who Learns My Lesson Complete?",
+        "order": 219
+    },
+    "220": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Tests",
+        "order": 220
+    },
+    "221": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "The Torch",
+        "order": 221
+    },
+    "222": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "O Star of France [1870-71]",
+        "order": 222
+    },
+    "223": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "The Ox-Tamer",
+        "order": 223
+    },
+    "224": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "An Old Man\u2019s Thought of School",
+        "order": 224
+    },
+    "225": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Wandering at Morn",
+        "order": 225
+    },
+    "226": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "Italian Music in Dakota",
+        "order": 226
+    },
+    "227": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "With All Thy Gifts",
+        "order": 227
+    },
+    "228": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "My Picture-Gallery",
+        "order": 228
+    },
+    "229": {
+        "book": "BOOK XXIV.  AUTUMN RIVULETS",
+        "title": "The Prairie States",
+        "order": 229
+    },
+    "230": {
+        "book": "BOOK XXV",
+        "title": "Proud Music of the Storm",
+        "order": 230
+    },
+    "231": {
+        "book": "BOOK XXVI",
+        "title": "Passage to India",
+        "order": 231
+    },
+    "232": {
+        "book": "BOOK XXVII",
+        "title": "Prayer of Columbus",
+        "order": 232
+    },
+    "233": {
+        "book": "BOOK XXVIII",
+        "title": "The Sleepers",
+        "order": 233
+    },
+    "234": {
+        "book": "BOOK XXVIII",
+        "title": "Transpositions",
+        "order": 234
+    },
+    "235": {
+        "book": "BOOK XXIX",
+        "title": "To Think of Time",
+        "order": 235
+    },
+    "236": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "Darest Thou Now O Soul",
+        "order": 236
+    },
+    "237": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "Whispers of Heavenly Death",
+        "order": 237
+    },
+    "238": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "Chanting the Square Deific",
+        "order": 238
+    },
+    "239": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "Of Him I Love Day and Night",
+        "order": 239
+    },
+    "240": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "Yet, Yet, Ye Downcast Hours",
+        "order": 240
+    },
+    "241": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "As If a Phantom Caress\u2019d Me",
+        "order": 241
+    },
+    "242": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "Assurances",
+        "order": 242
+    },
+    "243": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "Quicksand Years",
+        "order": 243
+    },
+    "244": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "That Music Always Round Me",
+        "order": 244
+    },
+    "245": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "What Ship Puzzled at Sea",
+        "order": 245
+    },
+    "246": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "A Noiseless Patient Spider",
+        "order": 246
+    },
+    "247": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "O Living Always, Always Dying",
+        "order": 247
+    },
+    "248": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "To One Shortly to Die",
+        "order": 248
+    },
+    "249": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "Night on the Prairies",
+        "order": 249
+    },
+    "250": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "Thought",
+        "order": 250
+    },
+    "251": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "The Last Invocation",
+        "order": 251
+    },
+    "252": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "As I Watch the Ploughman Ploughing",
+        "order": 252
+    },
+    "253": {
+        "book": "BOOK XXX.  WHISPERS OF HEAVENLY DEATH",
+        "title": "Pensive and Faltering",
+        "order": 253
+    },
+    "254": {
+        "book": "BOOK XXXI",
+        "title": "Thou Mother with Thy Equal Brood",
+        "order": 254
+    },
+    "255": {
+        "book": "BOOK XXXI",
+        "title": "A Paumanok Picture",
+        "order": 255
+    },
+    "256": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Thou Orb Aloft Full-Dazzling",
+        "order": 256
+    },
+    "257": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Faces",
+        "order": 257
+    },
+    "258": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "The Mystic Trumpeter",
+        "order": 258
+    },
+    "259": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "To a Locomotive in Winter",
+        "order": 259
+    },
+    "260": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "O Magnet-South",
+        "order": 260
+    },
+    "261": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Mannahatta",
+        "order": 261
+    },
+    "262": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "All Is Truth",
+        "order": 262
+    },
+    "263": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "A Riddle Song",
+        "order": 263
+    },
+    "264": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Excelsior",
+        "order": 264
+    },
+    "265": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Ah Poverties, Wincings, and Sulky Retreats",
+        "order": 265
+    },
+    "266": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Thoughts",
+        "order": 266
+    },
+    "267": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Mediums",
+        "order": 267
+    },
+    "268": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Weave in, My Hardy Life",
+        "order": 268
+    },
+    "269": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Spain, 1873-74",
+        "order": 269
+    },
+    "270": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "By Broad Potomac\u2019s Shore",
+        "order": 270
+    },
+    "271": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "From Far Dakota\u2019s Canyons  [June 25, 1876]",
+        "order": 271
+    },
+    "272": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Old War-Dreams",
+        "order": 272
+    },
+    "273": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Thick-Sprinkled Bunting",
+        "order": 273
+    },
+    "274": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "What Best I See in Thee",
+        "order": 274
+    },
+    "275": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "Spirit That Form\u2019d This Scene",
+        "order": 275
+    },
+    "276": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "As I Walk These Broad Majestic Days",
+        "order": 276
+    },
+    "277": {
+        "book": "BOOK XXXII.  FROM NOON TO STARRY NIGHT",
+        "title": "A Clear Midnight",
+        "order": 277
+    },
+    "278": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "As the Time Draws Nigh",
+        "order": 278
+    },
+    "279": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "Years of the Modern",
+        "order": 279
+    },
+    "280": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "Ashes of Soldiers",
+        "order": 280
+    },
+    "281": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "Thoughts",
+        "order": 281
+    },
+    "282": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "Song at Sunset",
+        "order": 282
+    },
+    "283": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "As at Thy Portals Also Death",
+        "order": 283
+    },
+    "284": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "My Legacy",
+        "order": 284
+    },
+    "285": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "Pensive on Her Dead Gazing",
+        "order": 285
+    },
+    "286": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "Camps of Green",
+        "order": 286
+    },
+    "287": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "The Sobbing of the Bells [Midnight, Sept. 19-20, 1881]",
+        "order": 287
+    },
+    "288": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "As They Draw to a Close",
+        "order": 288
+    },
+    "289": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "Joy, Shipmate, Joy!",
+        "order": 289
+    },
+    "290": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "The Untold Want",
+        "order": 290
+    },
+    "291": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "Portals",
+        "order": 291
+    },
+    "292": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "These Carols",
+        "order": 292
+    },
+    "293": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "Now Finale to the Shore",
+        "order": 293
+    },
+    "294": {
+        "book": "BOOK XXXIII.  SONGS OF PARTING",
+        "title": "So Long!",
+        "order": 294
+    },
+    "295": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "Mannahatta",
+        "order": 295
+    },
+    "296": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "Paumanok",
+        "order": 296
+    },
+    "297": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "From Montauk Point",
+        "order": 297
+    },
+    "298": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "To Those Who\u2019ve Fail\u2019d",
+        "order": 298
+    },
+    "299": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "A Carol Closing Sixty-Nine",
+        "order": 299
+    },
+    "300": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "The Bravest Soldiers",
+        "order": 300
+    },
+    "301": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "A Font of Type",
+        "order": 301
+    },
+    "302": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "As I Sit Writing Here",
+        "order": 302
+    },
+    "303": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "My Canary Bird",
+        "order": 303
+    },
+    "304": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "Queries to My Seventieth Year",
+        "order": 304
+    },
+    "305": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "The Wallabout Martyrs",
+        "order": 305
+    },
+    "306": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "The First Dandelion",
+        "order": 306
+    },
+    "307": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "America",
+        "order": 307
+    },
+    "308": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "Memories",
+        "order": 308
+    },
+    "309": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "To-Day and Thee",
+        "order": 309
+    },
+    "310": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "After the Dazzle of Day",
+        "order": 310
+    },
+    "311": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "Abraham Lincoln, Born Feb. 12, 1809",
+        "order": 311
+    },
+    "312": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "Out of May\u2019s Shows Selected",
+        "order": 312
+    },
+    "313": {
+        "book": "BOOK XXXIV.  SANDS AT SEVENTY",
+        "title": "Halcyon Days",
+        "order": 313
+    },
+    "314": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Election Day, November, 1884",
+        "order": 314
+    },
+    "315": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "With Husky-Haughty Lips, O Sea!",
+        "order": 315
+    },
+    "316": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Death of General Grant",
+        "order": 316
+    },
+    "317": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Red Jacket (From Aloft)",
+        "order": 317
+    },
+    "318": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Washington\u2019s Monument February, 1885",
+        "order": 318
+    },
+    "319": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Of That Blithe Throat of Thine",
+        "order": 319
+    },
+    "320": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Broadway",
+        "order": 320
+    },
+    "321": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "To Get the Final Lilt of Songs",
+        "order": 321
+    },
+    "322": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Old Salt Kossabone",
+        "order": 322
+    },
+    "323": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "The Dead Tenor",
+        "order": 323
+    },
+    "324": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Continuities",
+        "order": 324
+    },
+    "325": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Yonnondio",
+        "order": 325
+    },
+    "326": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Life",
+        "order": 326
+    },
+    "327": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "\u201cGoing Somewhere\u201d",
+        "order": 327
+    },
+    "328": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Small the Theme of My Chant",
+        "order": 328
+    },
+    "329": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "True Conquerors",
+        "order": 329
+    },
+    "330": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "The United States to Old World Critics",
+        "order": 330
+    },
+    "331": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "The Calming Thought of All",
+        "order": 331
+    },
+    "332": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Thanks in Old Age",
+        "order": 332
+    },
+    "333": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Life and Death",
+        "order": 333
+    },
+    "334": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "The Voice of the Rain",
+        "order": 334
+    },
+    "335": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Soon Shall the Winter\u2019s Foil Be Here",
+        "order": 335
+    },
+    "336": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "While Not the Past Forgetting",
+        "order": 336
+    },
+    "337": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "The Dying Veteran",
+        "order": 337
+    },
+    "338": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Stronger Lessons",
+        "order": 338
+    },
+    "339": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "A Prairie Sunset",
+        "order": 339
+    },
+    "340": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Twenty Years",
+        "order": 340
+    },
+    "341": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Orange Buds by Mail from Florida",
+        "order": 341
+    },
+    "342": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Twilight",
+        "order": 342
+    },
+    "343": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "You Lingering Sparse Leaves of Me",
+        "order": 343
+    },
+    "344": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Not Meagre, Latent Boughs Alone",
+        "order": 344
+    },
+    "345": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "The Dead Emperor",
+        "order": 345
+    },
+    "346": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "As the Greek\u2019s Signal Flame",
+        "order": 346
+    },
+    "347": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "The Dismantled Ship",
+        "order": 347
+    },
+    "348": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Now Precedent Songs, Farewell",
+        "order": 348
+    },
+    "349": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "An Evening Lull",
+        "order": 349
+    },
+    "350": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "Old Age\u2019s Lambent Peaks",
+        "order": 350
+    },
+    "351": {
+        "book": "FANCIES AT NAVESINK",
+        "title": "After the Supper and Talk",
+        "order": 351
+    },
+    "352": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Sail out for Good, Eidolon Yacht!",
+        "order": 352
+    },
+    "353": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Lingering Last Drops",
+        "order": 353
+    },
+    "354": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Good-Bye My Fancy",
+        "order": 354
+    },
+    "355": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "On, on the Same, Ye Jocund Twain!",
+        "order": 355
+    },
+    "356": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "MY 71st Year",
+        "order": 356
+    },
+    "357": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Apparitions",
+        "order": 357
+    },
+    "358": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "The Pallid Wreath",
+        "order": 358
+    },
+    "359": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "An Ended Day",
+        "order": 359
+    },
+    "360": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Old Age\u2019s Ship & Crafty Death\u2019s",
+        "order": 360
+    },
+    "361": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "To the Pending Year",
+        "order": 361
+    },
+    "362": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Shakspere-Bacon\u2019s Cipher",
+        "order": 362
+    },
+    "363": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Long, Long Hence",
+        "order": 363
+    },
+    "364": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Bravo, Paris Exposition!",
+        "order": 364
+    },
+    "365": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Interpolation Sounds",
+        "order": 365
+    },
+    "366": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "To the Sun-Set Breeze",
+        "order": 366
+    },
+    "367": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Old Chants",
+        "order": 367
+    },
+    "368": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "A Christmas Greeting",
+        "order": 368
+    },
+    "369": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Sounds of the Winter",
+        "order": 369
+    },
+    "370": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "A Twilight Song",
+        "order": 370
+    },
+    "371": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "When the Full-Grown Poet Came",
+        "order": 371
+    },
+    "372": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Osceola",
+        "order": 372
+    },
+    "373": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "A Voice from Death",
+        "order": 373
+    },
+    "374": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "A Persian Lesson",
+        "order": 374
+    },
+    "375": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "The Commonplace",
+        "order": 375
+    },
+    "376": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "\u201cThe Rounded Catalogue Divine Complete\u201d",
+        "order": 376
+    },
+    "377": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Mirages",
+        "order": 377
+    },
+    "378": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "L. of G.\u2019s Purport",
+        "order": 378
+    },
+    "379": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "The Unexpress\u2019d",
+        "order": 379
+    },
+    "380": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Grand Is the Seen",
+        "order": 380
+    },
+    "381": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Unseen Buds",
+        "order": 381
+    },
+    "382": {
+        "book": "BOOKXXXV.  GOOD-BYE MY FANCY",
+        "title": "Good-Bye My Fancy!",
+        "order": 382
+    }
+}
