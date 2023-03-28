@@ -1,7 +1,0 @@
-{
-    "python.analysis.typeCheckingMode": "basic",
-    "python.defaultInterpreterPath": "~/.virtualenvs/log/bin/python",
-    "python.linting.pylintEnabled": true,
-    "python.linting.flake8Enabled": false,
-    "python.linting.enabled": true
-}
