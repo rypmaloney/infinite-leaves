@@ -15,12 +15,13 @@ class State {
     }
 
     updatesState(stanzaKey) {
+        // Keep current stanza in backend file for server restarts.
         this.state = { currentStanza: stanzaKey };
-        fs.writeFile('state.json', JSON.stringify(this.state), (err) => {
+        fs.writeFile('./data/state.json', JSON.stringify(this.state), (err) => {
             if (err) {
                 console.error(err);
             } else {
-                console.log('Current state saved to file');
+                console.log(`Current state saved to file: ${stanzaKey}`);
             }
         });
     }
@@ -33,6 +34,7 @@ class State {
     }
 
     updateJsonFile(data) {
+        // Json file used to initizalize current poem on initial page load.
         try {
             const existingData = JSON.parse(
                 fs.readFileSync(
