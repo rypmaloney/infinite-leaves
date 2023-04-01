@@ -27,9 +27,6 @@ export default function About(props) {
                     at different times of the day to discover new, and sometimes
                     unsettling, creations.
                 </p>
-                <p className='text-sm text-white '>
-                    <Link to='/'>Back to Infinite Leaves</Link>
-                </p>
             </div>
         </div>
     );
