@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import uniqid from 'uniqid';
 
 const UnfocusedStanzas = (props) => {
     const { stanzas } = props;
@@ -7,7 +8,7 @@ const UnfocusedStanzas = (props) => {
         <div className='flex flex-col space-y-5'>
             {stanzas.map((stanza) => {
                 return (
-                    <div className='w-full text-stone-500'>
+                    <div key={uniqid()} className='w-full text-stone-500'>
                         {stanza.order == 1 ? (
                             <h1 className='text-xl pb-4'>
                                 <em>{stanza.poem}</em>
