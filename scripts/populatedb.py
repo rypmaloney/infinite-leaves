@@ -7,25 +7,22 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-def insert():
+def main():
+    """Populate Atlas cluster with production stanzas"""
+    with open("scripts/data/prod_stanzas.json", encoding="utf-8") as stanza_file:
+        stanzas = json.load(stanza_file)
+
     URI = os.environ.get("DB_URI")
     client = MongoClient(URI)
     log_db = client["log"]
     stanza_collection = log_db["stanzas"]
-    test = stanza_collection.insert_one({"text": "Test text"})
-    print(test.inserted_id)
+
+    for k in stanzas.keys():
+        stanzas[k]["key"] = k
+        obj = stanza_collection.insert_one(stanzas[k])
+        print(obj.inserted_id)
+
     client.close()
-
-
-def main():
-    with open("poems.json") as poem_file:
-        poems = json.load(poem_file)
-
-    with open("log.json") as stanza_file:
-        stanzas = json.load(stanza_file)
-
-    for poem in poems:
-        poem_stanzas = [x for x in stanzas if x["poem"] == poem["title"]]
 
 
 if __name__ == "__main__":

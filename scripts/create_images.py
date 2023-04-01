@@ -50,11 +50,12 @@ def create_image_object(prompt, prompt_filename, image_json, amount):
             "stanza": stanza,
             "prompt": prompt,
         }
-    with open(image_json, "w") as f:
+    with open(image_json, "w", encoding="utf-8") as f:
         json.dump(img_obj, f, indent=4)
 
 
 def create_new_images(stanza_file, image_json, prompt_order, amount):
+    """Generate images in Stable Diffusion off a selected GPT-4 prompt"""
     with open(image_json, encoding="utf-8") as i_file:
         img_obj = json.load(i_file)
 

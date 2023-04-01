@@ -1,20 +1,25 @@
 {
-  "name": "infinite-leaves",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "express-ws": "^5.0.2",
-    "http-errors": "~1.6.3",
-    "jade": "^0.29.0",
-    "mongoose": "^6.9.0",
-    "morgan": "~1.9.1",
-    "socket.io": "^4.6.1"
-  }
+    "name": "infinite-leaves",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www",
+        "dev": "concurrently \"node ./bin/www\" \"cd ../client && PORT=3001 npm run start\""
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.4",
+        "cors": "^2.8.5",
+        "debug": "~2.6.9",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-ws": "^5.0.2",
+        "http-errors": "~1.6.3",
+        "jade": "^0.29.0",
+        "mongoose": "^6.9.0",
+        "morgan": "~1.9.1",
+        "socket.io": "^4.6.1"
+    },
+    "devDependencies": {
+        "concurrently": "^8.0.1"
+    }
 }
