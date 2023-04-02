@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "start": "node ./bin/www",
-        "build": "cd ../client  && npm run build",
+        "build": "cd ../client  && npm install && npm run build",
         "dev": "concurrently \"node ./bin/www\" \"cd ../client && PORT=3001 npm run start\""
     },
     "dependencies": {
