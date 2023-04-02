@@ -27,6 +27,11 @@ export default function About(props) {
                     at different times of the day to discover new, and sometimes
                     unsettling, creations.
                 </p>
+                <p>
+                    <a href='https://whitmanarchive.org/published/LG/1867/index.html'>
+                        A full table of contents can be found here.
+                    </a>
+                </p>
             </div>
         </div>
     );
