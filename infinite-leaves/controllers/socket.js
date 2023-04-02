@@ -71,7 +71,7 @@ module.exports = function (server) {
 
         stanzaState.updatesState(stanzas['+1'].key);
         stanzaState.updateJsonFile(stanzas);
-    }, 25000);
+    }, 35000);
 
     io.on('connection', (socket) => {
         console.log('A client connected!');
