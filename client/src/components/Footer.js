@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <div className='inline-flex fixed  right-0 md:bottom-0 md:left-0  p-2'>
+        <div className='inline-flex fixed  right-0 md:bottom-0 md:left-0  px-2 md:py-2 '>
             <p className='text-md text-stone-400 '>
                 <span className='text-xs'>||</span> <Link to='/'>home </Link>{' '}
                 <span className='text-xs'> ||</span>{' '}

@@ -8,6 +8,13 @@ import About from './components/About';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { socket } from './socket';
 
+const appHeight = () => {
+    const doc = document.documentElement;
+    doc.style.setProperty('--app-height', `${window.innerHeight}px`);
+};
+
+window.addEventListener('resize', appHeight);
+
 const InfinteLeaves = () => {
     const [imageUrl, setImageUrl] = useState('');
     const [prevStanzas, setPrevStanzas] = useState([]);
@@ -22,12 +29,12 @@ const InfinteLeaves = () => {
     };
 
     const setPage = (data) => {
+        const url = getUrl(data['+0'].key);
+        setImageUrl(url);
         setCurrentStanza(data['+0']);
         setPrevStanzas(filterKeys(data, '-'));
         setNextStanzas(filterKeys(data, '+'));
-
-        const url = getUrl(data['+0'].key);
-        setImageUrl(url);
+        appHeight();
     };
     const setStartingState = async () => {
         try {
@@ -68,7 +75,7 @@ const InfinteLeaves = () => {
                 className='App animate min-h-screen  bg-center bg-cover text-stone-300'
                 style={{ backgroundImage: `url(${imageUrl})` }}
             >
-                <div className='relative min-h-screen  bg-zinc-900 bg-opacity-80 backdrop-blur-md'>
+                <div className='relative min-h-screen App bg-zinc-900 bg-opacity-80 backdrop-blur-md'>
                     <Routes>
                         <Route
                             path='/'

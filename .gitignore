@@ -1,5 +1,4 @@
 node_modules
-package-lock.json
 *.log
 *.gz
 .env
@@ -27,7 +26,6 @@ images/00
 
 # production
 infinite-leaves/public/build
-infinite-leaves/public/data
 infinite-leaves/public/images
 
 scripts/data

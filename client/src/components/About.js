@@ -6,7 +6,7 @@ export default function About(props) {
     return (
         <div className='flex flex-col md:flex-row max-w-2xl m-auto items-center justify-center between  absolute inset-0  min-h-screen'>
             <div className='text-right p-4 '>
-                <h1 className='text-2xl text-white w-36'>
+                <h1 className='text-2xl text-white md:w-36'>
                     <em></em>Infinite Leaves
                 </h1>
             </div>

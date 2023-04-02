@@ -19,14 +19,16 @@ const StanzaCol = (props) => {
     }, [stanza]);
 
     return (
-        <div className='flex-col flex justify-center mx-auto md:min-h-screen relative  overflow-scroll md:overflow-hidden max-h-screen md:w-1/2 md:pr-16 md:m-auto p-8 space-y-12 '>
+        <div className='flex-col flex start md:justify-center mx-auto md:min-h-screen relative  overflow-scroll md:overflow-hidden md:max-h-screen md:w-1/2 md:pr-16 md:m-auto px-8 space-y-12 '>
             <div className=' hidden md:block relative'>
                 <div className='absolute bottom-0 space-y-8 text-xl md:pl-8'>
                     <Lorem />
                     <UnfocusedStanzas stanzas={prevStanzas} />
                 </div>
             </div>
-            <div className={`${textSize} pt-8 md:p-0 md:ml-0`}>
+            <div
+                className={`${textSize} pb-48 md:p-0 md:ml-0 max-h-screen overflow-scroll`}
+            >
                 <FocusedStanza stanza={stanza} />
             </div>
             <div className='relative hidden md:block md:pl-8 '>
