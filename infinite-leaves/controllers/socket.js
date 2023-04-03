@@ -2,6 +2,7 @@ const socketIO = require('socket.io');
 const Stanza = require('../models/stanza.js');
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
 
 class State {
     constructor() {
@@ -71,7 +72,7 @@ module.exports = function (server) {
 
         stanzaState.updatesState(stanzas['+1'].key);
         stanzaState.updateJsonFile(stanzas);
-    }, 35000);
+    }, 120000);
 
     io.on('connection', (socket) => {
         console.log('A client connected!');
@@ -82,18 +83,43 @@ const cleanText = (text) => {
     return text.replace(/\n/g, '<br>');
 };
 
+const rand_str = (min, max) => {
+    // Random number for image 00-04
+    // random number for prompt 01-03
+    // random based on day to allow frontend preload
+    const day = new Date().getDate();
+    const randNum = ((day - 1) % (max - min + 1)) + min;
+    const randStr = randNum.toString().padStart(2, '0');
+
+    return randStr;
+};
+
+const formatURL = (key) => {
+    const prompt = '03';
+    const image_order = rand_str(0, 4);
+
+    const url = `${process.env.CLOUDFRONT_DOMAIN}/comp/${key}-${prompt}-${image_order}.png`;
+    return url;
+};
+
 async function findStanzaWithNeighbors(key) {
-    const stanza = await Stanza.findOne({ key });
+    let stanza = await Stanza.findOne({ key });
+    stanza = stanza.toObject();
     stanza.text = cleanText(stanza.text);
+    stanza.url = formatURL(stanza.key);
 
     if (!stanza) {
         throw new Error(`No stanza found with key ${key}`);
     }
 
     const prevStanza = await Stanza.findOne({ key: stanza.prev });
-    const nextStanza = await Stanza.findOne({ key: stanza.next });
+    let nextStanza = await Stanza.findOne({ key: stanza.next });
     prevStanza.text = cleanText(prevStanza.text);
     nextStanza.text = cleanText(nextStanza.text);
+
+    nextStanza = nextStanza.toObject();
+    nextStanza.url = formatURL(nextStanza.key);
+
     let nextNextStanza = {};
     let prevPrevStanza = {};
 

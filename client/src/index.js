@@ -17,25 +17,21 @@ window.addEventListener('resize', appHeight);
 
 const InfinteLeaves = () => {
     const [imageUrl, setImageUrl] = useState('');
+    const [nextImageUrl, setNextImageUrl] = useState('');
     const [prevStanzas, setPrevStanzas] = useState([]);
     const [currentStanza, setCurrentStanza] = useState({});
     const [nextStanzas, setNextStanzas] = useState([]);
 
-    const getUrl = (key) => {
-        const prompt = '01';
-        const image_order = '00';
-
-        return `https://infinite-leaves.s3.amazonaws.com/${prompt}/${key}-${prompt}-${image_order}.png`;
-    };
-
     const setPage = (data) => {
-        const url = getUrl(data['+0'].key);
-        setImageUrl(url);
+        setNextImageUrl(data['+1'].url);
+        setImageUrl(data['+0'].url);
         setCurrentStanza(data['+0']);
         setPrevStanzas(filterKeys(data, '-'));
         setNextStanzas(filterKeys(data, '+'));
+
         appHeight();
     };
+
     const setStartingState = async () => {
         try {
             const dataUrl = '/data/log.json';
@@ -51,6 +47,7 @@ const InfinteLeaves = () => {
             console.error(error);
         }
     };
+
     function filterKeys(obj, filter) {
         let filteredArr = [];
         for (const [key, value] of Object.entries(obj)) {
@@ -69,6 +66,13 @@ const InfinteLeaves = () => {
     useEffect(() => {
         setStartingState();
     }, []);
+
+    useEffect(() => {
+        const img = new Image();
+        img.src = nextImageUrl;
+        console.log('image preloaded');
+    }, [imageUrl]);
+
     return (
         <Router>
             <div

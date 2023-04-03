@@ -217,8 +217,18 @@ def link_entries(json_file):
         json.dump(obj, f, indent=4)
 
 
+def update_filenames(directory):
+    files = os.listdir(directory)
+
+    for file in files:
+        if file.endswith("00.png"):
+            new_file = file[:-6] + "04.png"
+            os.rename(os.path.join(directory, file), os.path.join(directory, new_file))
+
+
 if __name__ == "__main__":
     # make_dict("new_stanzas_dict.json", "stanza")
     # make_stanzas_early(lines)
-    link_entries("scripts/new_stanzas_dict.json")
-    add_one()
+    # link_entries("scripts/new_stanzas_dict.json")
+    # add_one()
+    update_filenames("scripts/images")

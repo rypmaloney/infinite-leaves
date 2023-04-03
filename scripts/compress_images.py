@@ -32,4 +32,4 @@ def compress(img_dir):
 
 
 if __name__ == "__main__":
-    compress("images/samples/")
+    compress("images/03/samples/")
