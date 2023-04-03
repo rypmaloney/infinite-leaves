@@ -9,10 +9,10 @@ const StanzaCol = (props) => {
     const [textSize, setTextSize] = useState('');
 
     const getSize = () => {
-        if (stanza.text && stanza.text.length > 1000)
-            return 'md:text-lg md:overflow-hidden';
-        if (stanza.text && stanza.text.length > 250) return 'md:text-xl';
-        return 'md:text-2xl';
+        if (stanza.text && stanza.text.length > 1000) return 'md:text-lg';
+        if (stanza.text && stanza.text.length > 250)
+            return 'md:text-xl md:overflow-hidden';
+        return 'md:text-2xl md:overflow-hidden';
     };
 
     useEffect(() => {
