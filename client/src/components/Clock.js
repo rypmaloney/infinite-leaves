@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function Clock({ stanza, intervalDuration, intervalStartTime }) {
-    const [secondsRemaining, setSecondsRemaining] = useState(90);
+    const [secondsRemaining, setSecondsRemaining] = useState(60);
 
     useEffect(() => {
         const intervalId = setInterval(() => {

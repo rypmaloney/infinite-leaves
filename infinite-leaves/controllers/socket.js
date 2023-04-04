@@ -68,7 +68,7 @@ module.exports = function (server) {
         let currentStanzaKey = stanzaState.getCurrentStanza();
         let stanzas = await findStanzaWithNeighbors(currentStanzaKey);
         let size = io.sockets.sockets.size;
-        let interval = 90000; // extra second for any frontend delay
+        let interval = 60000; // extra second for any frontend delay
         let startTime = Date.now();
 
         console.log(`Socket size: ${size}`);
@@ -81,7 +81,7 @@ module.exports = function (server) {
 
         stanzaState.updatesState(stanzas['+1'].key);
         stanzaState.updateJsonFile(stanzas);
-    }, 90000);
+    }, 60000);
 
     io.on('connection', (socket) => {
         console.log('A client connected!');
