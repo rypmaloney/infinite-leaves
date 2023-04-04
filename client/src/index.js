@@ -32,7 +32,7 @@ const InfinteLeaves = () => {
         setCurrentStanza(data['+0']);
         setPrevStanzas(filterKeys(data, '-'));
         setNextStanzas(filterKeys(data, '+'));
-        setSocketSize(data['size']);
+        setSocketSize(JSON.parse(data['size']));
 
         setIntervalStartTime(JSON.parse(data['start']));
         setIntervalDuration(JSON.parse(data['interval']));
@@ -78,7 +78,6 @@ const InfinteLeaves = () => {
     useEffect(() => {
         const img = new Image();
         img.src = nextImageUrl;
-        console.log('image preloaded');
     }, [imageUrl]);
 
     return (
