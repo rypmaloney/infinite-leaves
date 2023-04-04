@@ -9,7 +9,7 @@ load_dotenv()
 
 def main():
     """Populate Atlas cluster with production stanzas"""
-    with open("scripts/data/prod_stanzas.json", encoding="utf-8") as stanza_file:
+    with open("scripts/data/prod_stanzas_03.json", encoding="utf-8") as stanza_file:
         stanzas = json.load(stanza_file)
 
     URI = os.environ.get("DB_URI")

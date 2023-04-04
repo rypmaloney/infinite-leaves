@@ -166,7 +166,7 @@ def add_captions(file):
 
 
 def add_one():
-    with open("scripts/new_stanzas_dict.json", encoding="utf-8") as file:
+    with open("scripts/data/new_stanzas_dict.json", encoding="utf-8") as file:
         prod_s = json.load(file)
 
     with open("scripts/data/stanzas_dict.json", encoding="utf-8") as file:
@@ -175,11 +175,11 @@ def add_one():
     keyList = sorted(prod_s.keys())
     for i, v in enumerate(keyList):
         try:
-            prod_s[keyList[i]]["caption"] = dev_s[keyList[i]]["caption"][1]
+            prod_s[keyList[i]]["caption"] = dev_s[keyList[i]]["caption"][3]
         except:
             print(dev_s[keyList[i]]["caption"])
 
-    with open("scripts/prod_stanzas.json", "w", encoding="utf-8") as f:
+    with open("scripts/prod_stanzas_03.json", "w", encoding="utf-8") as f:
         json.dump(prod_s, f, indent=4)
 
 
@@ -230,5 +230,5 @@ if __name__ == "__main__":
     # make_dict("new_stanzas_dict.json", "stanza")
     # make_stanzas_early(lines)
     # link_entries("scripts/new_stanzas_dict.json")
-    # add_one()
-    update_filenames("scripts/images")
+    add_one()
+    # update_filenames("scripts/images")
