@@ -21,7 +21,7 @@ const InfinteLeaves = () => {
     const [prevStanzas, setPrevStanzas] = useState([]);
     const [currentStanza, setCurrentStanza] = useState({});
     const [nextStanzas, setNextStanzas] = useState([]);
-    const [socketSize, setSocketSize] = useState(0);
+    const [socketSize, setSocketSize] = useState(1);
 
     const [intervalDuration, setIntervalDuration] = useState(0);
     const [intervalStartTime, setIntervalStartTime] = useState(0);
