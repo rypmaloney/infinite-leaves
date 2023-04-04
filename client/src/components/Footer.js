@@ -12,7 +12,7 @@ export default function Footer(props) {
                 <Link to='/about'>about </Link>{' '}
                 <span className='text-xs'>||</span>{' '}
             </p>
-            <div className='hidden md:inline-flex text-stone-500 space-x-2'>
+            <div className='hidden md:inline-flex text-stone-500 space-x-2 text-sm align-bottom m-auto'>
                 <p>current visitors: {socketSize}</p>
                 <Clock
                     stanza={stanza}
