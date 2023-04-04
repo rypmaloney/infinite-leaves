@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { S3Image } from 'react-s3';
 import '../App.css';
 
 const PoemMeta = (props) => {
@@ -27,9 +26,9 @@ const PoemMeta = (props) => {
                     <span className='text-xs'> ({stanza.order})</span>
                 </h3>
             </div>
-            <div className='m-auto'>
+            <div className='m-auto p-4'>
                 <img
-                    className='p-4 md:p-auto md:h-96 md:w-96 animate'
+                    className='md:p-auto md:h-96 md:w-96 animate'
                     src={imageUrl}
                     title={caption}
                 ></img>

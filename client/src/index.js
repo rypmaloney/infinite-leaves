@@ -27,15 +27,15 @@ const InfinteLeaves = () => {
     const [intervalStartTime, setIntervalStartTime] = useState(0);
 
     const setPage = (data) => {
-        setNextImageUrl(data['+1'].url);
         setImageUrl(data['+0'].url);
         setCurrentStanza(data['+0']);
         setPrevStanzas(filterKeys(data, '-'));
         setNextStanzas(filterKeys(data, '+'));
-        setSocketSize(JSON.parse(data['size']));
 
         setIntervalStartTime(JSON.parse(data['start']));
         setIntervalDuration(JSON.parse(data['interval']));
+        setSocketSize(JSON.parse(data['size']));
+        setNextImageUrl(data['+1'].url);
 
         appHeight();
     };
@@ -100,10 +100,7 @@ const InfinteLeaves = () => {
                                 />
                             }
                         />
-                        <Route
-                            path='/about'
-                            element={<About imageUrl={imageUrl} />}
-                        />
+                        <Route path='/about' element={<About />} />
                     </Routes>
                     <Footer
                         socketSize={socketSize}
