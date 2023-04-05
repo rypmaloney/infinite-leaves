@@ -105,7 +105,7 @@ const rand_str = (min, max) => {
 
 const formatURL = (key) => {
     const prompt = '03';
-    const image_order = rand_str(0, 4);
+    const image_order = rand_str(0, 3);
 
     const url = `${process.env.CLOUDFRONT_DOMAIN}/comp/${key}-${prompt}-${image_order}.png`;
     return url;
