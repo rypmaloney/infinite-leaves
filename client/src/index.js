@@ -16,7 +16,7 @@ const appHeight = () => {
 window.addEventListener('resize', appHeight);
 
 const InfinteLeaves = () => {
-    const [imageUrl, setImageUrl] = useState('');
+    const [imageUrl, setImageUrl] = useState('images/fallback.png');
     const [nextImageUrl, setNextImageUrl] = useState('');
     const [prevStanzas, setPrevStanzas] = useState([]);
     const [currentStanza, setCurrentStanza] = useState({});
