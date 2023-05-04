@@ -16,16 +16,7 @@ The webserver is a an Express backend with a react client side. The progression 
 
 All images are hosted in an S3 bucket and cached with Cloudfront. The poem is hosted in a MongoDB Atlas cluster.
 
-## Tools
-- React
-- Express
-- React Router
-- SocketIo
-- Tailwindcss
-- AWS S3
-- AWS Cloudfront
-- Mongoose
-- MongoDB Atlas
+
 
 !["I Sing the Body Electric - stanza 15"](/preview_images/3.png)
 !["I Sing the Body Electric - stanza 17"](/preview_images/2.png)
