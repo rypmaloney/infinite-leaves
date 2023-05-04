@@ -15,9 +15,9 @@ export default function About() {
                     AI-generated images, created using Stable Diffusion.
                 </p>
                 <p>
-                    Over the course of a 35 hour loop, Infinite Leaves displays,
+                    Over the course of a 20 hour loop, Infinite Leaves displays,
                     in order, every verse of <em>Leaves of Grass</em> paired
-                    with one of over 10,000 images generated based on a GPT-4
+                    with one of over 25,000 images generated based on a GPT-4
                     interpretation.
                 </p>
                 <p>

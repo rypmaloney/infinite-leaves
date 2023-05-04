@@ -5,7 +5,7 @@ from PIL import Image
 
 
 def compress(img_dir):
-    compress_dir = os.path.join(img_dir, "compressed")
+    compress_dir = os.path.join(img_dir, "compressed325")
     if not os.path.exists(compress_dir):
         os.makedirs(compress_dir)
 
@@ -25,11 +25,11 @@ def compress(img_dir):
         with Image.open(os.path.join(compress_dir, img_file)) as img:
             # width, height = img.size
             # resized_img = img.resize((int(width / 2), int(height / 2)))
-            resized_img = img.resize((350, 350))
+            resized_img = img.resize((325, 325))
             resized_img.save(
                 os.path.join(compress_dir, img_file), optimize=True, quality=60
             )
 
 
 if __name__ == "__main__":
-    compress("images/03/samples/")
+    compress("images/01/samples/")

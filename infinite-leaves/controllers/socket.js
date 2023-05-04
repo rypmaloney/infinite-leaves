@@ -68,7 +68,7 @@ module.exports = function (server) {
         let currentStanzaKey = stanzaState.getCurrentStanza();
         let stanzas = await findStanzaWithNeighbors(currentStanzaKey);
         let size = io.sockets.sockets.size;
-        let interval = 60000; // extra second for any frontend delay
+        let interval = 35000;
         let startTime = Date.now();
 
         console.log(`Socket size: ${size}`);
@@ -81,7 +81,7 @@ module.exports = function (server) {
 
         stanzaState.updatesState(stanzas['+1'].key);
         stanzaState.updateJsonFile(stanzas);
-    }, 60000);
+    }, 35000);
 
     io.on('connection', (socket) => {
         console.log('A client connected!');
@@ -92,22 +92,22 @@ const cleanText = (text) => {
     return text.replace(/\n/g, '<br>');
 };
 
-const rand_str = (min, max) => {
+const rand_str = (rdm, min, max) => {
     // Random number for image 00-04
     // random number for prompt 01-03
     // random based on day to allow frontend preload
+
     const day = new Date().getDate();
-    const randNum = ((day - 1) % (max - min + 1)) + min;
+    const mod = day + rdm;
+    const randNum = ((mod - 1) % (max - min + 1)) + min;
     const randStr = randNum.toString().padStart(2, '0');
 
     return randStr;
 };
 
-const formatURL = (key) => {
-    const prompt = '03';
-    const image_order = rand_str(0, 3);
+const formatURL = (key, prompt, image_order) => {
+    const url = `${process.env.CLOUDFRONT_DOMAIN}/123/${prompt}/${key}-${prompt}-${image_order}.png`;
 
-    const url = `${process.env.CLOUDFRONT_DOMAIN}/comp/${key}-${prompt}-${image_order}.png`;
     return url;
 };
 
@@ -115,7 +115,13 @@ async function findStanzaWithNeighbors(key) {
     let stanza = await Stanza.findOne({ key });
     stanza = stanza.toObject();
     stanza.text = cleanText(stanza.text);
-    stanza.url = formatURL(stanza.key);
+
+    const rdm = Math.floor(Math.random() * 10);
+    const prompt = rand_str(0, 1, 3);
+    const image_order = rand_str(rdm, 0, 3); // Randomize images regardless of day, not prompt
+
+    stanza.url = formatURL(stanza.key, prompt, image_order);
+    stanza.caption = stanza.caption[+image_order];
 
     if (!stanza) {
         throw new Error(`No stanza found with key ${key}`);
@@ -127,7 +133,11 @@ async function findStanzaWithNeighbors(key) {
     nextStanza.text = cleanText(nextStanza.text);
 
     nextStanza = nextStanza.toObject();
-    nextStanza.url = formatURL(nextStanza.key);
+    const nextImages = [];
+    for (let order in [0, 1, 2, 3]) {
+        nextImages.push(formatURL(nextStanza.key, prompt, `0${order}`));
+    } // Prepare a list of possible next images to preload
+    nextStanza.url = nextImages;
 
     let nextNextStanza = {};
     let prevPrevStanza = {};

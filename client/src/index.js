@@ -17,7 +17,7 @@ window.addEventListener('resize', appHeight);
 
 const InfinteLeaves = () => {
     const [imageUrl, setImageUrl] = useState('images/fallback.png');
-    const [nextImageUrl, setNextImageUrl] = useState('');
+    const [nextImageUrls, setNextImageUrls] = useState('');
     const [prevStanzas, setPrevStanzas] = useState([]);
     const [currentStanza, setCurrentStanza] = useState({});
     const [nextStanzas, setNextStanzas] = useState([]);
@@ -35,7 +35,7 @@ const InfinteLeaves = () => {
         setIntervalStartTime(JSON.parse(data['start']));
         setIntervalDuration(JSON.parse(data['interval']));
         setSocketSize(JSON.parse(data['size']));
-        setNextImageUrl(data['+1'].url);
+        setNextImageUrls(data['+1'].url);
 
         appHeight();
     };
@@ -76,8 +76,10 @@ const InfinteLeaves = () => {
     }, []);
 
     useEffect(() => {
-        const img = new Image();
-        img.src = nextImageUrl;
+        for (const url of nextImageUrls) {
+            let img = new Image();
+            img.src = url;
+        }
     }, [imageUrl]);
 
     return (
@@ -86,7 +88,7 @@ const InfinteLeaves = () => {
                 className='App animate min-h-screen  bg-center bg-cover text-stone-300'
                 style={{ backgroundImage: `url(${imageUrl})` }}
             >
-                <div className='relative min-h-screen App bg-zinc-900 bg-opacity-90 backdrop-blur-md'>
+                <div className='relative min-h-screen App bg-zinc-800 bg-opacity-70 backdrop-blur-md'>
                     <Routes>
                         <Route
                             path='/'

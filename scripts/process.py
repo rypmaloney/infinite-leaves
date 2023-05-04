@@ -175,11 +175,11 @@ def add_one():
     keyList = sorted(prod_s.keys())
     for i, v in enumerate(keyList):
         try:
-            prod_s[keyList[i]]["caption"] = dev_s[keyList[i]]["caption"][3]
+            prod_s[keyList[i]]["caption"] = dev_s[keyList[i]]["caption"]
         except:
             print(dev_s[keyList[i]]["caption"])
 
-    with open("scripts/prod_stanzas_03.json", "w", encoding="utf-8") as f:
+    with open("scripts/prod_stanzas_all.json", "w", encoding="utf-8") as f:
         json.dump(prod_s, f, indent=4)
 
 
