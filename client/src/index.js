@@ -88,7 +88,7 @@ const InfinteLeaves = () => {
                 className='App animate min-h-screen  bg-center bg-cover text-stone-300'
                 style={{ backgroundImage: `url(${imageUrl})` }}
             >
-                <div className='relative min-h-screen App bg-zinc-800 bg-opacity-70 backdrop-blur-md'>
+                <div className='relative min-h-screen App bg-zinc-800 bg-opacity-80 backdrop-blur-md'>
                     <Routes>
                         <Route
                             path='/'
