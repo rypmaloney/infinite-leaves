@@ -117,7 +117,7 @@ async function findStanzaWithNeighbors(key) {
     stanza.text = cleanText(stanza.text);
 
     const rdm = Math.floor(Math.random() * 10);
-    const prompt = rand_str(0, 1, 3);
+    const prompt = '01'; // rand_str(0, 1, 3);
     const image_order = rand_str(rdm, 0, 3); // Randomize images regardless of day, not prompt
 
     stanza.url = formatURL(stanza.key, prompt, image_order);
