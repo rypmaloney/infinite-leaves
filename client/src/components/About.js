@@ -25,12 +25,21 @@ export default function About() {
                     at different times of the day to discover new, and sometimes
                     unsettling, creations.
                 </p>
+
                 <p>
                     <a
                         className='underline'
                         href='https://whitmanarchive.org/published/LG/1867/index.html'
                     >
                         A full table of contents can be found here.
+                    </a>
+                </p>
+                <p>
+                    <a
+                        className='underline text-sm'
+                        href='https://github.com/rypmaloney/infinite-leaves'
+                    >
+                        Visit the Github Repository.
                     </a>
                 </p>
                 <p className='text-sm text-stone-400'>
